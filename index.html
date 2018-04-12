@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" href="styles.css">
-    
-    
-            <div class="topnav" id="myTopnav">
-                    <p class="Daniel">DANIEL ALAMO</p>
-                    <a href="#about">About</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact" class="active">Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
-                </head>
-                
-                <body>
-                    <h1>About Me</h1>
-                    <hr>
-      <div>
-          <img src="C:\Users\jason\projects\Basic-Portfolio\assets\images\my-image.html" alt="my-image">
-        <p>
-            I like to put the lime in the coconut. I do the cha-cha with my lamp. Did I tell you how much I love my lamp?
-        </p>
-        <p>
-            I quit my job because it's not web development and it was definitely not as cool. I like to do backflips when noone is looking so I can smirk in the back like I'm the coolest one in the room. Just between us, I say I'm going on break but I really just walk out to do a flip.
-        </p>
+
+<head>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="myname">
+            <h1>DANIEL ALAMO</h1>
         </div>
-        <br>
-    </body>
+        <ul>
+            <li>
+                <a class="active" href="index.html"> About</a>
+            </li>
+            <li>
+                <a href="portfolio.html"> Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact</a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </header>
+    <div class="content">
+        <h2>About Me</h2>
+        <hr>
+        <container>
+            <img src="assets/images/profileimage.jpg">
+            <p>
+                Captains blog (pause)...coordinates...IN A CHAIR stuck on this homework! I managed to get an okay layout. Did not have the time to complete the assignment. The portfolio section needs work. 
+            </p>
+        </container>
+        <section>
+            <p>
+                Some text for fun.I quit my job because it's not web development and it was definitely not as cool. I like to do backflips when noone is looking
+                so I can smirk in the back like I'm the coolest one in the room. Just between us, I say I'm going on break
+                but I really just walk out to do a flip.
+            </p>
+        </section>
+    </div>
     <br>
-    <div id="container">
-            <div id="header"></div>
-            <div id="body"></div>
-            <div id="footer">Copyright @</div>
-         </div>
-    </html>
+    <div class="footer">
+        <p>Copyright@</p>
+    </div>
+    </div>
+</body>
+
+</html>

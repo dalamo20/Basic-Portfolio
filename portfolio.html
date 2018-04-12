@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" href="styles.css">
-    
-    
-            <div class="topnav" id="myTopnav">
-                    <p class="Daniel">DANIEL ALAMO</p>
-                    <a href="#about">About</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact" class="active">Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
-                </head>
-                <body>
-                    <h1>Portfolio</h1>
-                    <hr>
-                    <ul style="list-style-type:none">
-                        <li>Hangman</li>
-                        <li>Trivia Game</li>
-                        <li>Rock Paper Scissors</li>
-                        <li>RPG Game</li>
-                        <li>Rutgers Info Widget</li>
-                    </ul>
-                    footer {
-                        padding: 1em;
-                        color: white;
-                        background-color: black;
-                        clear: left;
-                        text-align: center;
-                    }
+
+<head>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="myname">
+            <h1>DANIEL ALAMO</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html"> About</a>
+            </li>
+            <li>
+                <a class="active" href="portfolio.html"> Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact</a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </header>
+    <div class="content">
+        <h2>Portfolio</h2>
+        <hr>
+        <div class="boxes">
+            <div class="box-1">
+                <p>Hangman</p>
+            </div>
+            <section id="trivia">
+                <img src="./assets/images/trivia game.jpg" width="100px" height="100px">
+            </section>
+            <section id="rock">
+                <img src="./assets/images/n-ROCK-PAPER-SCISSOR-628x314.jpg" width="100px" height="100px">
+            </section>
+            <section id="rpg">
+                <img src="./assets/images/rpg-games.jpg" width="100px" height="100px">
+            </section>
+            <section id="rutger">
+                <img src="./assets/images/rutgers.jpg" width="100px" height="100px">
+            </section>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Copyright@</p>
+    </div>
+</body>
+
 </html>
