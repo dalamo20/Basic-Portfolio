@@ -9,37 +9,85 @@
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">DANIEL</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <div classname="container">
+    <div classname="img-half-wrap" id="mePic">
+      <img src="./assets/images/me.png" classname="picDalamo" id="imageDalamo" alt="Dalamo" />
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/profileimage.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
+    <div classname="rightDiv" id="logoSide">
+      <div classname="innerTop">
+        <h1 id="hello"> Hello, </h1>
+        <p id="welcomeOne"> My name is Daniel. </p>
+        <p id="welcomeTwo"> Welcome to my portfolio site. </p>
+      </div>
+      <span classname="placeLogo">
+        <img src="./assets/images/logo.png" classname="logoPic" id="myLogo" alt="Logo" />
+      </span>
+    </div>
   </div>
+  <div classname="aboutSection" id="myLife">
+    <div id="p1">
+    <p> Hello and thank you for visiting my first portfolio using React.js! A little about me: I love my coffee bold and strong to keep me up long hours, 
+        I enjoy taking on new challenges such as learning new programs and on my own time a new language, 
+        also a huge Game of Thrones fan. 
+    </p>
+    </div>
+    <div id="p2">
+    <p> Before I became a Web Developer I was actually studying for the MCAT and GRE. Crazy? Yes well unfortunately I got nowhere with both exams and continued to 
+        build my career in research at Northwestern University where I worked as a Research Study Coordinator at the time. Seeing that my career was at a halt I 
+        decided to use the schools resources and advance my career by attending a certificate program. Upon acceptance, my work schedule conflicted with the school schedule
+        and I made the decision to quit my job and pursue a career that is always growing. 
+    </p>
+    </div>
+    <div id="p3">
+    <p> The 3 months was intense and I had no experience with coding or its terminology. The program built my confidence and gave me the inspiration to make extraordinary websites 
+        on my own and with passionate classmates. Though the program is short, it shows that I can learn new programs in a short period of time and utilize
+        any library I have to work with. I am glad I took the chance to change my career and find continueing education a great way to challenge myself. 
+    </p>
+    </div>
+    </div>
+    <div classname="projectContainer">
+      <div classname="wrapper">
+        <div> 
+          <img src="./assets/images/createoh.png" classname="createohImg" />
+          <div classname="content">
+            <span classname="project">
+              <a id="createLink" href="https://create-oh.herokuapp.com/"> CREATE-OH </a>
+            </span>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/images/icebreakers.png" classname="icebreakerImg" />
+          <div classname="content">
+            <span classname="project">
+              <a id="iceLink" href="https://icebreakernu.herokuapp.com/"> ICEBREAKERS </a>
+            </span>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/images/catmemory.png" classname="catmemoryImg" />
+          <div classname="content">
+            <span classname="project">
+              <a id="catLink" href="https://catmemory.herokuapp.com/"> CAT MEMORY </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+  <footer classname="footer">
+    <div classname="leftFooter">
+      <span id="footSpan"> FOLLOW ME </span>
+      <div classname="mediaLinks">
+        <a href="https://www.linkedin.com/in/dalamo20"> LinkedIn </a>
+        <a href="https://github.com/dalamo20"> Github </a>
+      </div>
+    </div>
+    <div classname="rightFooter">
+      <span id="footSpan"> MORE ABOUT ME </span>
+      <div classname="myInfo">
+        <a href="#"> Resume </a>
+        <a href="#"> Contact </a>
+      </div>
     </div>
   </footer>
 </body>
