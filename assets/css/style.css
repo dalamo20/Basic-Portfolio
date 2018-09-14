@@ -1,11 +1,4 @@
 /*   TOP PAGE     */
-
-.container {
-    display: inline-block;
-    position: relative;
-    font-family: Montserrat;
-    color: #000E8F;
-  }
   
   #imageDalamo {
     margin-left: -15px;
@@ -22,22 +15,28 @@
   #hello {
     position: absolute;
     font-size: 150px;
-    right: 140px;
+    right: 200px;
     top: 168px;
+    font-family: Montserrat;
+    color: #000E8F;
   }
 
   #welcomeOne {
     position: absolute;
     font-size: 24px;
-    right: 310px;
+    right: 390px;
     top: 350px;
+    font-family: Montserrat;
+    color: #000E8F;
   }
 
   #welcomeTwo {
     position: absolute;
     font-size: 24px;
-    right: 205px;
+    right: 255px;
     top: 400px;
+    font-family: Montserrat;
+    color: #000E8F;
   }
 
 /*    About      */
@@ -46,6 +45,7 @@
     background-color: #e3ded8;
     text-align: justify;
     padding: 100px;
+    margin-top: -3px;
 }
 
 p {
