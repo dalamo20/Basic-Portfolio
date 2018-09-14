@@ -2,6 +2,7 @@
   
   #imageDalamo {
     margin-left: -15px;
+    position: relative;
   }
 
   #myLogo {
@@ -93,33 +94,29 @@ p {
     display: flex;
 }
 
-/* .column {
-    float: left;
+#createohImg icebreakerImg catmemoryImg {
+    position: relative;
 }
-
-.row::after {
-    content: "";
-    clear: both;
-} */
 
 #catLink {
     position: absolute;
     writing-mode: vertical-rl;
     right: 10px;
-    top: 10px;
+    top: 1060px;
 }
 
 #createLink {
     position: absolute;
     writing-mode: vertical-rl;
-    top: 10px;
-    left: 425px;
+    top: 1060px;
+    left: 340px;
 }
 
 #iceLink {
     position: absolute;
     writing-mode: vertical-rl;
-    top: 10px;
+    top: 1060px;
+    right: 420px;
 } 
 
 a {
