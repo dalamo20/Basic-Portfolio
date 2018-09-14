@@ -6,8 +6,8 @@
 
   #myLogo {
     position: absolute;
-    right: 10px;
-    top: 397px;
+    right: 15px;
+    top: 430px;
     height: auto;
     width: 85px;
   }
@@ -89,16 +89,18 @@ p {
 
 /*    Projects    */
 
-.column {
+.flex-container {
+    display: flex;
+}
+
+/* .column {
     float: left;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
-    display: table;
-}
+} */
 
 #catLink {
     position: absolute;
