@@ -58,7 +58,11 @@ p {
 
 /*    Projects    */
 
-/* .wrapper {
+.column {
+    float: left;
+}
+
+.wrapper {
     display: grid;
     grid-template-columns: 342px 342px 342px;
 }
@@ -85,12 +89,12 @@ p {
 
 a {
     text-decoration: none;
-} */
+}
 
 
 /*    FOOTER     */
 
-/* footer {
+footer {
     background-color: black;
     color: white;
     padding: 40px;
@@ -142,4 +146,4 @@ a {
     background: transparent;
     color: white;
     font-size: 30px;
-  } */
+  }
