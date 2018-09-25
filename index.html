@@ -12,7 +12,14 @@
 
 <body>
   <div class="container">
-    <div class="sticky-top" onclick="myFunction(this)">
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="sticky-top openbtn" onclick="myFunction(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -34,7 +41,7 @@
 
     <div class="aboutSection" id="myLife">
       <div id="p1">
-        <p> Hello and thank you for visiting my first portfolio using React.js! A little about me: I love my coffee
+        <p> Hello and thank you for visiting my portfolio! A little about me: I love my coffee
           bold
           and strong to keep me up long hours,
           I enjoy taking on new challenges such as learning new programs and on my own time a new language,
@@ -112,6 +119,10 @@
 </body>
 
 <script src="./assets/js/script.js">
+
+
+
+
 
 
 
