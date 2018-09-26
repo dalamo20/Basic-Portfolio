@@ -12,15 +12,28 @@
 
 <body>
   <div class="container">
-    <div class="sticky-top" onclick="myFunction(this)">
+
+    <div class="sticky-top dropbtn" onclick="myFunction(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
     </div>
-<h1 id="head"> Contact </h1>
-<p> Email: dalamo90@gmail.com </p>
-<a href="https://github.com/dalamo20"> Github </a>
-<a href="https://www.linkedin.com/in/dalamo20"> LinkedIn </a>
+    <div class="dropdown">
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+
+    <div class="contactInfo">
+      <h1 id="contactHeader">Contacts</h1>
+      <div id="p3">
+        <p id="email"> "Email: "<a href="mailto:dalamo90@gmail.com"> dalamo90@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
     <div class="leftFooter">
       <span id="footSpan"> FOLLOW ME </span>
@@ -34,13 +47,12 @@
       <div class="myInfo">
         <a href="/Users/ypham/Desktop/projects/Basic-Portfolio/assets/documents/Daniel's Resume 7.2018_2 (1).pdf">
           Resume </a>
-        <a href="./contact.html" > Contact </a>
+        <a href="./contact.html"> Contact </a>
       </div>
   </footer>
 </body>
 
 <script src="./assets/js/script.js">
-
 
 </script>
 

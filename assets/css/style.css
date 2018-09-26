@@ -78,18 +78,6 @@
 
 /*    SideMenu    */
 
-.dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-} */
-
 .dropdown {
     float: right;
     position: relative;
@@ -230,8 +218,23 @@ footer {
 
 /*   Contacts   */
 
-h1 {
-    text-align: center;
+.contactInfo {
+    background-color: white;
+    text-align: justify;
+    padding: 130px;
+    margin: 0 -155px 0 -15px;
+}
+
+#contactHeader {
     font-size: 72px;
-    
+    line-height: 72px;
+    letter-spacing: -1.1px;
+    text-align: center;
+    font-weight: normal;
+    margin: 200px auto 120px;
+    max-width: 1000px;
+}
+
+#email {
+    text-align: center;
 }
