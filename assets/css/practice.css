@@ -1,3 +1,47 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.nav-main {
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #FFF;
+}
+
+.btn-toggle-nav {
+    width: 60px;
+    height: 100%;
+    background-color: #F98F39;
+    background-image: url("/projects/Basic-Portfolio/assets/images/me.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.nav-main ul{
+    display: flex;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-main ul li {
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav-main ul li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .nav-sidebar {
     position: fixed;
     left: 0;
@@ -7,10 +51,13 @@
     height: calc(100vh - 60px);
     background-color: steelblue;
     z-index: 1000;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul {
     padding-top: 15px;
+    overflow: hidden;   
+    visibility: hidden; /*hides list */
 }
 
 .nav-sidebar ul li {
@@ -24,8 +71,19 @@
     padding: 0 10px;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #FFF;
     font-size: 16px;
     font-family: helvetica neue, sans-serif;
     white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover {
+    background-color: gray;
+}
+
+#menu {
+    font-size: 40px;
+    cursor: pointer;
 }
