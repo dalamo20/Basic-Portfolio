@@ -48,7 +48,8 @@
 
 .sticky-top {
     float: right;
-    margin-right: -140px;
+    margin-right: -85px;
+    padding-top: 30px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -134,6 +135,12 @@ p {
     display: flex;
 }
 
+#catLink, #createLink, #iceLink {
+    text-decoration: none;
+    text-decoration-color: #000E8F;
+    white-space: nowrap;
+}
+
 #catLink {
     position: absolute;
     writing-mode: vertical-rl;
@@ -145,7 +152,7 @@ p {
     position: absolute;
     writing-mode: vertical-rl;
     top: 1030px;
-    left: 340px;
+    left: 385px;
 }
 
 #iceLink {
@@ -154,11 +161,6 @@ p {
     top: 1030px;
     right: 420px;
 } 
-
-a {
-    text-decoration: none;
-}
-
 
 /*    FOOTER     */
 
@@ -231,10 +233,14 @@ footer {
     letter-spacing: -1.1px;
     text-align: center;
     font-weight: normal;
-    margin: 200px auto 120px;
+    margin: 30px auto 120px;
     max-width: 1000px;
 }
 
 #email {
+    text-align: center;
+}
+
+#follow {
     text-align: center;
 }

@@ -1,0 +1,31 @@
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    padding: 0 5px;
+    height: calc(100vh - 60px);
+    background-color: steelblue;
+    z-index: 1000;
+}
+
+.nav-sidebar ul {
+    padding-top: 15px;
+}
+
+.nav-sidebar ul li {
+    line-height: 60px;
+    list-style: none;
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a {
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-family: helvetica neue, sans-serif;
+    white-space: nowrap;
+}
