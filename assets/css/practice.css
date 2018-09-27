@@ -15,7 +15,6 @@ body {
     width: 60px;
     height: 100%;
     background-color: #F98F39;
-    background-image: url("/projects/Basic-Portfolio/assets/images/me.png");
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
@@ -83,7 +82,39 @@ body {
     background-color: gray;
 }
 
-#menu {
-    font-size: 40px;
+/*    Menu       */
+.container {
+    display: inline-block;
     cursor: pointer;
+}
+
+.sticky-top {
+    float: right;
+    margin-right: -85px;
+    padding-top: 30px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 1px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-2px, 2px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
