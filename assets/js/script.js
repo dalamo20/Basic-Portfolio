@@ -20,7 +20,7 @@ let toggleNav = function() {
         getBarTwo.style.background = "white";
         getBarThree.style.background = "white";
         getSidebarUl.style.visibility = "visible";
-        getSidebar.style.width = "272px";
+        getSidebar.style.width = "426px";
         getSidebarTitle.style.opacity = "0.5";
         
         let arrayLength = getSidebarLinks.length;

@@ -84,7 +84,7 @@
     bottom: 0;
     width: 0;
     height: calc(100vh);
-    background-color: #000E8F;
+    background-color: black;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
 }
@@ -115,7 +115,7 @@
 }
 
 .nav-sidebar ul li a:hover {
-    background-color: gray;
+    background-color: #000E8F;
 }
 
 /*    About      */
@@ -144,28 +144,34 @@ p {
 
 #catLink, #createLink, #iceLink {
     text-decoration: none;
-    text-decoration-color: #000E8F;
     white-space: nowrap;
+    color: white;
+    opacity: 0.7;
+}
+
+#catLink:hover, #createLink:hover, #iceLink:hover {
+    color: #000E8F;
+    opacity: 1;
 }
 
 #catLink {
     position: absolute;
     writing-mode: vertical-rl;
     right: 5px;
-    top: 1080px;
+    top: 1045px;
 }
 
 #createLink {
     position: absolute;
     writing-mode: vertical-rl;
-    top: 1080px;
+    top: 1045px;
     left: 385px;
 }
 
 #iceLink {
     position: absolute;
     writing-mode: vertical-rl;
-    top: 1080px;
+    top: 1045px;
     right: 420px;
 } 
 
@@ -212,16 +218,22 @@ footer {
     margin-right: 34px;
     line-height: 24px;
     letter-spacing: 4px;
-    color: white;
     font-size: 12px;
     font-family: 'replica-bold', sans-serif;
   }
+
+  #mediaLinks a, #myInfo a {
+      text-decoration: none;
+      color: white;
+  }
+
+  #mediaLinks a:hover, #myInfo a:hover {
+      color: #000E8F;
+  }
   
   a {
-    text-decoration: none;
     transition: all .3s;
     background: transparent;
-    color: white;
     font-size: 30px;
   }
 
@@ -231,7 +243,7 @@ footer {
     background-color: white;
     text-align: justify;
     padding: 130px;
-    margin: 0 -155px 0 -15px;
+    margin: 0 -155px 76px -15px;
 }
 
 #contactHeader {
@@ -246,30 +258,21 @@ footer {
 
 #email {
     text-align: center;
+    font-size: 27px;
 }
 
 #follow {
     text-align: center;
+    font-size: 30px;
 }
 
-/*  CONTACTS MENU  */
+#follow a, #email a {
+    color: #000;
+    text-decoration: none;
+}
 
-body{
-    margin-top: 60px;
-  }
+#follow a:hover, #email a:hover {
+    color: #000E8F;
+}
   
-  p{
-    font-size: large;
-  }
-  
-  #header{
-    color: #009688;
-    background-color: white;
-    height: 40px;
-    width: 100%;
-    top: 0;
-    padding-top: 10px;
-    padding-left: 5px;
-    position: fixed;
-  }
-  
+
