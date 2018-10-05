@@ -2,8 +2,6 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 
-//THIS IS PRACTICE 
-
 let toggleNavStatus = false;
 
 let toggleNav = function() {
