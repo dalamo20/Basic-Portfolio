@@ -1,10 +1,3 @@
-:root {
-  --primary: #000E8F;
-  --dark:  #000;
-  --light: #e3ded8;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
-
 html {
   box-sizing: border-box; 
   font-family: 'Montserrat', sans-serif;
@@ -109,22 +102,10 @@ img {
 
 .showcase {
   grid-area: showcase;
-  min-height: 400px;
-  background: url(../images/me.png);
-  background-size: cover;
-  background-position: center;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  box-shadow: var(--shadow);
 }
 
 .top-box {
   display: grid;
-  align-items: center;
-  justify-items: center;
 }
 
 .top-box-a {
@@ -138,6 +119,8 @@ img {
   color: #000E8F;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+  text-align: center;
+  padding-top: 65px;
 }
 
 .top-box-c {
@@ -273,14 +256,14 @@ h4.goRight {
 
 .top-nav {
   display: grid;
-  align-items: center;
+  /* align-items: center; */
   justify-items: center;
   padding-top: 10px;
 }
 
 .navi-bar {
   grid-area: navi;
-  justify-self: center;
+  /* justify-self: center; */
 }
 
 .contact-hd {
@@ -334,6 +317,12 @@ h4.goRight {
   height: 2200px;
 } */
 
+@media (min-width: 1200px) {
+  .top-box-b {
+   padding-right: 170px;
+  }
+}
+
 @media (max-width: 700px) {
   .top-container {
     grid-template-areas:
@@ -365,10 +354,9 @@ h4.goRight {
   }
 
   .hide-nav a {
-    box-shadow: var(--shadow);
     display: block;
     background: white;
-    color: var(--primary);
+    color: #000E8F;
   }
 
   .top-container {
@@ -382,9 +370,9 @@ h4.goRight {
     display: none;
   }
 
-  .top-box-c {
+  /* .top-box-c {
     display: none;
-  }
+  } */
   
   .portfolio {
     grid-template-columns: 1fr;
@@ -392,7 +380,7 @@ h4.goRight {
 
   footer {
     margin-top: -0.5px;
-    background: var(--dark);
+    background: black;
     color: white;
     text-align: center;
   }
